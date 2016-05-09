@@ -13,25 +13,23 @@ http://eat-sleep-code.blogspot.com/
 
 #CACHE SIMULATOR::
 
-
-
 ##DOCUMENTATION:
 
 ###compiling :
 
- *GO TO src
- *run make
- *EXECUTABLE cache_sim GENERATED IN bin/release FOLDER
+* GO TO src
+* run make
+* EXECUTABLE cache_sim GENERATED IN bin/release FOLDER
 
 ###running :
 
- *GENERATE THE TRACE FILE USING trace.c IN DATA FOLDER (an example 'trace' is in this folder)
- *COPY THE TRACE FILE INTO bin/release
- *IN TERMINAL GO TO bin/release FOLDER
- *RUN ./cache_sim
- *ENTER FILE trace AS THE TRACE FILE
- *ENTER FILE config AS THE CONFIGURATION SET FILE
- *PLEASE SEE THE FILE output FOR SIMULATION RESULTS
+* GENERATE THE TRACE FILE USING trace.c IN DATA FOLDER (an example 'trace' is in this folder)
+* COPY THE TRACE FILE INTO bin/release
+* IN TERMINAL GO TO bin/release FOLDER
+* RUN ./cache_sim
+* ENTER FILE trace AS THE TRACE FILE
+* ENTER FILE config AS THE CONFIGURATION SET FILE
+* PLEASE SEE THE FILE output FOR SIMULATION RESULTS
 
 ==============================================================
 
@@ -46,7 +44,7 @@ output - contains results
 
 ###config file is in the format
 
-<associativity> <cache_hit_time> <line_size > <replace_policy> <setcount> <write_policy> <cache_miss_penalty>
+[associativity] [cache_hit_time] [line_size ] [replace_policy] [setcount] [write_policy] [cache_miss_penalty]
 replacement policy conventions- RAND - 1 ; LRU - 2 ; FIFO - 3
 line size - in words
 write_back - 1 ; write_through - 2
