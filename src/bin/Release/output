@@ -1,0 +1,318 @@
+ ---------------------------------------------- 
+running config::
+associativity = 1
+line size = 2
+replacement_policy = RANDOM
+set count = 1024
+write policy = WRITE BACK
+
+results:: 
+hits :: 1427280
+misses :: 582720
+
+ ---------------------------------------------- 
+
+
+ ---------------------------------------------- 
+running config::
+associativity = 2
+line size = 2
+replacement_policy = RANDOM
+set count = 1024
+write policy = WRITE BACK
+
+results:: 
+hits :: 1511399
+misses :: 498601
+
+ ---------------------------------------------- 
+
+
+ ---------------------------------------------- 
+running config::
+associativity = 4
+line size = 2
+replacement_policy = RANDOM
+set count = 1024
+write policy = WRITE BACK
+
+results:: 
+hits :: 1785303
+misses :: 224697
+
+ ---------------------------------------------- 
+
+
+ ---------------------------------------------- 
+running config::
+associativity = 8
+line size = 2
+replacement_policy = RANDOM
+set count = 1024
+write policy = WRITE BACK
+
+results:: 
+hits :: 1985991
+misses :: 24009
+
+ ---------------------------------------------- 
+
+
+ ---------------------------------------------- 
+running config::
+associativity = 16
+line size = 2
+replacement_policy = RANDOM
+set count = 1024
+write policy = WRITE BACK
+
+results:: 
+hits :: 1995000
+misses :: 15000
+
+ ---------------------------------------------- 
+
+
+ ---------------------------------------------- 
+running config::
+associativity = 32
+line size = 2
+replacement_policy = RANDOM
+set count = 1024
+write policy = WRITE BACK
+
+results:: 
+hits :: 1995000
+misses :: 15000
+
+ ---------------------------------------------- 
+
+
+ ---------------------------------------------- 
+running config::
+associativity = 4
+line size = 2
+replacement_policy = RANDOM
+set count = 2048
+write policy = WRITE BACK
+
+results:: 
+hits :: 1986247
+misses :: 23753
+
+ ---------------------------------------------- 
+
+
+ ---------------------------------------------- 
+running config::
+associativity = 4
+line size = 2
+replacement_policy = RANDOM
+set count = 3072
+write policy = WRITE BACK
+
+results:: 
+hits :: 1993224
+misses :: 16776
+
+ ---------------------------------------------- 
+
+
+ ---------------------------------------------- 
+running config::
+associativity = 4
+line size = 2
+replacement_policy = RANDOM
+set count = 4096
+write policy = WRITE BACK
+
+results:: 
+hits :: 1995000
+misses :: 15000
+
+ ---------------------------------------------- 
+
+
+ ---------------------------------------------- 
+running config::
+associativity = 4
+line size = 2
+replacement_policy = RANDOM
+set count = 8192
+write policy = WRITE BACK
+
+results:: 
+hits :: 1995000
+misses :: 15000
+
+ ---------------------------------------------- 
+
+
+ ---------------------------------------------- 
+running config::
+associativity = 4
+line size = 2
+replacement_policy = LRU
+set count = 2048
+write policy = WRITE BACK
+
+results:: 
+hits :: 1995000
+misses :: 15000
+
+ ---------------------------------------------- 
+
+
+ ---------------------------------------------- 
+running config::
+associativity = 4
+line size = 2
+replacement_policy = LRU
+set count = 3072
+write policy = WRITE BACK
+
+results:: 
+hits :: 1995000
+misses :: 15000
+
+ ---------------------------------------------- 
+
+
+ ---------------------------------------------- 
+running config::
+associativity = 4
+line size = 2
+replacement_policy = LRU
+set count = 4096
+write policy = WRITE BACK
+
+results:: 
+hits :: 1995000
+misses :: 15000
+
+ ---------------------------------------------- 
+
+
+ ---------------------------------------------- 
+running config::
+associativity = 4
+line size = 2
+replacement_policy = LRU
+set count = 8192
+write policy = WRITE BACK
+
+results:: 
+hits :: 1995000
+misses :: 15000
+
+ ---------------------------------------------- 
+
+
+ ---------------------------------------------- 
+running config::
+associativity = 4
+line size = 2
+replacement_policy = FIFO
+set count = 2048
+write policy = WRITE BACK
+
+results:: 
+hits :: 1987288
+misses :: 22712
+
+ ---------------------------------------------- 
+
+
+ ---------------------------------------------- 
+running config::
+associativity = 4
+line size = 2
+replacement_policy = FIFO
+set count = 3072
+write policy = WRITE BACK
+
+results:: 
+hits :: 1990556
+misses :: 19444
+
+ ---------------------------------------------- 
+
+
+ ---------------------------------------------- 
+running config::
+associativity = 4
+line size = 2
+replacement_policy = FIFO
+set count = 4096
+write policy = WRITE BACK
+
+results:: 
+hits :: 1995000
+misses :: 15000
+
+ ---------------------------------------------- 
+
+
+ ---------------------------------------------- 
+running config::
+associativity = 4
+line size = 2
+replacement_policy = FIFO
+set count = 8192
+write policy = WRITE BACK
+
+results:: 
+hits :: 1995000
+misses :: 15000
+
+ ---------------------------------------------- 
+
+
+ ---------------------------------------------- 
+running config::
+associativity = 4
+line size = 4
+replacement_policy = RANDOM
+set count = 2048
+write policy = WRITE BACK
+
+results:: 
+hits :: 2002500
+misses :: 7500
+
+ ---------------------------------------------- 
+
+
+ ---------------------------------------------- 
+running config::
+associativity = 4
+line size = 4
+replacement_policy = LRU
+set count = 2048
+write policy = WRITE BACK
+
+results:: 
+hits :: 2002500
+misses :: 7500
+
+ ---------------------------------------------- 
+
+
+ ---------------------------------------------- 
+running config::
+associativity = 4
+line size = 4
+replacement_policy = FIFO
+set count = 2048
+write policy = WRITE BACK
+
+results:: 
+hits :: 2002500
+misses :: 7500
+
+ ---------------------------------------------- 
+
+
+trace details -
+reads - 2000000  writes - 10000
+
