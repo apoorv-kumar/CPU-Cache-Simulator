@@ -4,7 +4,7 @@ http://creativecommons.org/licenses/by-sa/3.0/
 
 DO NOT REMOVE THIS COMMENT (unless you are copying the code for some academic project ;)
 
-created by - apoorv kumar
+created by - apoorv kumar, 2011
 iit guwahati
 apoorv.kumar247@gmail.com
 
@@ -19,19 +19,19 @@ http://eat-sleep-code.blogspot.com/
 
 ###compiling :
 
--- GO TO src
--- run make
--- EXECUTABLE cache_sim GENERATED IN bin/release FOLDER
+ *GO TO src
+ *run make
+ *EXECUTABLE cache_sim GENERATED IN bin/release FOLDER
 
 ###running :
 
--- GENERATE THE TRACE FILE USING trace.c IN DATA FOLDER (an example 'trace' is in this folder)
--- COPY THE TRACE FILE INTO bin/release
--- IN TERMINAL GO TO bin/release FOLDER
--- RUN ./cache_sim
--- ENTER FILE trace AS THE TRACE FILE
--- ENTER FILE config AS THE CONFIGURATION SET FILE
--- PLEASE SEE THE FILE output FOR SIMULATION RESULTS
+ *GENERATE THE TRACE FILE USING trace.c IN DATA FOLDER (an example 'trace' is in this folder)
+ *COPY THE TRACE FILE INTO bin/release
+ *IN TERMINAL GO TO bin/release FOLDER
+ *RUN ./cache_sim
+ *ENTER FILE trace AS THE TRACE FILE
+ *ENTER FILE config AS THE CONFIGURATION SET FILE
+ *PLEASE SEE THE FILE output FOR SIMULATION RESULTS
 
 ==============================================================
 
